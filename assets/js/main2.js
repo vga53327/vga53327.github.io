@@ -39,10 +39,14 @@ function removeTodo(index) {
 
 function render() {
     var result = ""
-    for (var i = 0; i < todolist.length; i++) {
-      result += `<div class='todo'><button onclick='removeTodo(${i})'>刪除</button><div>${todolist[i]}</div></div>`
+    if (todolist==[]){
+        todolistDiv.innerHTML = ""
+    } else {
+        for (var i = 0; i < todolist.length; i++) {
+            result += `<div class='todo'><button onclick='removeTodo(${i})'>刪除</button><div>${todolist[i]}</div></div>`
+          }
+          todolistDiv.innerHTML = result
     }
-    todolistDiv.innerHTML = result
 }
 
 function save() {
