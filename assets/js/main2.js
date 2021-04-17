@@ -60,4 +60,3 @@ function getTodoListFromLocalStorage() {
   };
   return todolistStr.split(",")
 }
-

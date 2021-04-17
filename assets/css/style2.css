@@ -9,18 +9,18 @@
     font-size: 30px;
     font-weight:bold;
     animation-name: move;
-    animation-duration:1s;
+    animation-duration:0.5s;
     animation-fill-mode: backwards;
     /*   animation-iteration-count: infinite; */
     /*   animation-timing-function: cubic-bezier(0.08,1.08,.84,1.05); */
 }
 
-#hero{
+/* #hero{
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.9)),
-  url('https://picsum.photos/id/1/800/1200');
-  background-size: cover;
-  background-position: center;
-}
+    url('https://picsum.photos/id/1/800/1200');
+    background-size: cover;
+    background-position: center;
+} */
 
 @keyframes move {
     from {
