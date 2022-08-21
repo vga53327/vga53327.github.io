@@ -1,0 +1,17 @@
+body {
+  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+}
+
+
+.row {
+  margin: 5%;
+}
+
+h3 {
+  margin-bottom: 30px;
+}
+
+.card {
+  margin: 20px;
+  padding: 40px;
+}
